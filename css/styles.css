@@ -17,3 +17,15 @@ h1 {
 h1, h2 {
   text-decoration: underline;
 }
+
+#menu1 h3 {
+  font-size: 40px;
+}
+
+#menu1 h4 {
+  font-size: 30px;
+}
+
+#menu1 li, #menu p {
+  font-size: 20px;
+}
