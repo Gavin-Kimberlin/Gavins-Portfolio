@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>Gavin's Portfolio</title>
@@ -12,56 +14,80 @@
       <div class="jumbotron">
         <h1>Gavin Kimberlin's Portfolio</h1>
         <img src="img/man.jpg" alt="Man">
-        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>  <br><br><br><br><br><br>
       </div>
 
-      <div class="jumbotron">
-        <h2><strong>Previous Projects:</strong></h2>
-        <br>
-        <h3>Animal Shelter</h3>
-        <a href="https://gavin-kimberlin.github.io/Animal-Shelter/">
-          <img src="img/dog.jpeg" alt="Dog">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br>
-        <h3>Vacation</h3>
-        <a href="https://gavin-kimberlin.github.io/Vacation/">
-          <img src="img/resort.jpg" alt="Resort">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br>
-        <h3>Cupcake Shop</h3>
-        <a href="https://gavin-kimberlin.github.io/Cupcake/">
-          <img src="img/cupcake.jpg" alt="Cupcake">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br>
-        <h3>Favorite Band</h3>
-        <a href="https://gavin-kimberlin.github.io/Favorite-Band/">
-          <img src="img/band.jpg" alt="Band">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br><br><br><br><br><br><br><br><br>
-        <h3>Interior Decorator</h3>
-        <a href="https://gavin-kimberlin.github.io/Interior-Decorator/">
-          <img src="img/after.jpg" alt="Home">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br>
-        <h3>Resort</h3>
-        <a href="https://gavin-kimberlin.github.io/Resort/">
-          <img src="img/2.jpg" alt="Resort">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br>
-        <h3>Wikipedia</h3>
-        <a href="https://gavin-kimberlin.github.io/Wikipedia/">
-          <img src="img/logo.png" alt="Wiki">
-        </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br><br><br><br><br><br><br>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Previous Websites
+        </a></li>
+        <li><a data-toggle="tab" href="#menu1">About Me</a></li>
+      </ul>
+
+      <div class="tab-content">
+
+        <div id="home" class="tab-pane fade in active">
+          <div class="jumbotron">
+            <h2><strong>Previous Projects:</strong></h2>
+            <br>
+
+            <h3>Animal Shelter</h3>
+            <a href="https://gavin-kimberlin.github.io/Animal-Shelter/">
+              <img src="img/dog.jpeg" alt="Dog">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+
+            <h3>Vacation</h3>
+            <a href="https://gavin-kimberlin.github.io/Vacation/">
+              <img src="img/resort.jpg" alt="Resort">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+
+            <h3>Cupcake Shop</h3>
+            <a href="https://gavin-kimberlin.github.io/Cupcake/">
+              <img src="img/cupcake.jpg" alt="Cupcake">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+
+            <h3>Favorite Band</h3>
+            <a href="https://gavin-kimberlin.github.io/Favorite-Band/">
+              <img src="img/band.jpg" alt="Band">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br><br><br><br><br><br><br><br><br>
+
+            <h3>Interior Decorator</h3>
+            <a href="https://gavin-kimberlin.github.io/Interior-Decorator/">
+              <img src="img/after.jpg" alt="Home">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+
+            <h3>Resort</h3>
+            <a href="https://gavin-kimberlin.github.io/Resort/">
+              <img src="img/2.jpg" alt="Resort">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br>
+
+            <h3>Wikipedia</h3>
+            <a href="https://gavin-kimberlin.github.io/Wikipedia/">
+              <img src="img/logo.png" alt="Wiki">
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br><br><br><br><br><br><br>
+          </div>
+        </div>
+
+        <div id="menu1" class="tab-pane fade">
+          <h3>Menu 1</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
 
       </div>
+
     </div>
   </body>
 </html>
