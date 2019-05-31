@@ -29,3 +29,7 @@ h1, h2 {
 #menu1 li, #menu p {
   font-size: 20px;
 }
+
+.numbers {
+  font-weight: bold;
+}
