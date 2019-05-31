@@ -1,6 +1,10 @@
+body {
+  background-color: darkgrey
+}
+
 img{
-  float: right;
-  width: 250px;
+  float: left;
+margin-left: 150px;
 }
 
 h1 {
