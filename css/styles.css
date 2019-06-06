@@ -33,3 +33,16 @@ h1, h2 {
 .numbers {
   font-weight: bold;
 }
+
+.project-div {
+  display:flex;
+}
+
+.website {
+  margin-bottom: 200px;
+
+}
+
+.websiteFV {
+  margin-bottom: 400px;
+}

@@ -12,6 +12,8 @@ A portfolio of Gavin Kimberlin's work with two tabs. One tab containing seven pr
 
 * Clone repository from link: https://github.com/Gavin-Kimberlin/Gavins-Portfolio.git.
 * Double click the html file and open in browser of choice.
+#OR#
+* Copy this link into your browser: https://gavin-kimberlin.github.io/Gavins-Portfolio/.
 
 ## Known Bugs
 
